@@ -1,0 +1,16 @@
+{
+  "name": "aws-gsheet-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"require('./index.js').handler({key1: 'value1', key2: 'value2', key3: 'value3'})\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "googleapis": "^40.0.1",
+    "promise": "^8.0.3"
+  }
+}
